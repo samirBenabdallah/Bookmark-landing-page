@@ -2,6 +2,7 @@ document
   .getElementsByClassName("nav-button")[0]
   .addEventListener("click", () => {
     document.querySelector("nav").classList.toggle("active");
+    document.body.classList.toggle("active");
   });
 
 const articlePagesButttons = document.querySelectorAll(".buttons div");
