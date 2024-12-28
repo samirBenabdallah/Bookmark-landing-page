@@ -19,6 +19,9 @@
 }
 body {
   overflow-x: hidden;
+  &.active {
+    overflow: hidden;
+  }
 }
 .btn {
   --main-color: var(--blue);
