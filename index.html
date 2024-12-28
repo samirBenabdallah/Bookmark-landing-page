@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/nav.css" />
+    <link rel="stylesheet" href="src/header.css" />
+    <link rel="stylesheet" href="src/article.css" />
+    <link rel="stylesheet" href="src/main.css" />
+    <link rel="stylesheet" href="src/FAQ.css" />
+    <link rel="stylesheet" href="src/section.css" />
+    <link rel="stylesheet" href="src/footer.css" />
+    <title>Frontend Mentor | Bookmark landing page</title>
+  </head>
+  <body>
+    <nav>
+      <img src="images/logo-bookmark.svg" alt="logo" />
+      <ul>
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Contact</li>
+        <button class="btn">Login</button>
+      </ul>
+      <div class="nav-button">
+        <img src="images/icon-hamburger.svg" alt="open" id="open" />
+        <img src="images/icon-close.svg" alt="close" id="close" />
+      </div>
+    </nav>
+    <header>
+      <aside>
+        <h1>
+          A Simple Bookmark <br />
+          Manager
+        </h1>
+        <p>
+          A clean and simple interface to organize your favourite websites. Open
+          a new browser tab and see your sites load instantly. Try it for free.
+        </p>
+        <div>
+          <button class="btn">Get it on Chrome</button>
+          <button class="btn">Get it on Firefox</button>
+        </div>
+      </aside>
+      <img src="images/illustration-hero.svg" alt="hero img" />
+    </header>
+    <article>
+      <h1>Features</h1>
+      <p>
+        Our aim is to make it quick and easy for you to access your favourite
+        websites. Your bookmarks sync between your devices so you can access
+        them on the go.
+      </p>
+      <div class="buttons">
+        <div data-page="one" class="active">Simple Bookmarking</div>
+        <div data-page="two">Speedy Searching</div>
+        <div data-page="three">Easy Sharing</div>
+      </div>
+      <div class="container">
+        <div class="page one active">
+          <img src="images/illustration-features-tab-1.svg" alt="tab1" />
+          <aside>
+            <h2>Bookmark in one click</h2>
+            <p>
+              Organize your bookmarks however you like. Our simple drag-and-drop
+              interface gives you complete control over how you manage your
+              favourite sites.
+            </p>
+            <button class="btn">More Info</button>
+          </aside>
+        </div>
+        <div class="page two">
+          <img src="images/illustration-features-tab-2.svg" alt="page2" />
+          <aside>
+            <h2>Intelligent search</h2>
+            <p>
+              Our powerful search feature will help you find saved sites in no
+              time at all. No need to trawl through all of your bookmarks.
+            </p>
+            <button class="btn">More Info</button>
+          </aside>
+        </div>
+        <div class="page three">
+          <img src="images/illustration-features-tab-3.svg" alt="" />
+          <aside>
+            <h2>Share your bookmarks</h2>
+            <p>
+              Easily share your bookmarks and collections with others. Create a
+              shareable link that you can send at the click of a button.
+            </p>
+            <button class="btn">More Info</button>
+          </aside>
+        </div>
+      </div>
+    </article>
+    <main>
+      <h1>Download the extension</h1>
+      <p>
+        We’ve got more browsers in the pipeline. Please do let us know if you’ve
+        got a favourite you’d like us to prioritize.
+      </p>
+      <div class="container">
+        <div class="card">
+          <img src="images/logo-chrome.svg" alt="google" />
+          <h3>Add to Chrome</h3>
+          <p>Minimum version 62</p>
+          <img src="images/bg-dots.svg" alt="bg-dots" />
+          <button class="btn">Add & Install Extension</button>
+        </div>
+        <div class="card">
+          <img src="images/logo-firefox.svg" alt="Firefox" />
+          <h3>Add to Firefox</h3>
+          <p>Minimum version 55</p>
+          <img src="images/bg-dots.svg" alt="bg-dots" />
+          <button class="btn">Add & Install Extension</button>
+        </div>
+        <div class="card">
+          <img src="images/logo-opera.svg" alt="Opera" />
+          <h3>Add to Opera</h3>
+          <p>Minimum version 46</p>
+          <img src="images/bg-dots.svg" alt="bg-dots" />
+          <button class="btn">Add & Install Extension</button>
+        </div>
+      </div>
+    </main>
+    <div class="FAQ">
+      <h1>Frequently Asked Questions</h1>
+      <p>
+        Here are some of our FAQs. If you have any other questions you’d like
+        answered please feel free to email us.
+      </p>
+      <div>
+        <div class="head">
+          <p>What is Bookmark?</p>
+          <img src="images/icon-arrow.svg" alt="icon-arrow" />
+        </div>
+        <div class="paragraphe">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+          tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis
+          quam ornare mattis.
+        </div>
+      </div>
+      <div>
+        <div class="head">
+          <p>How can I request a new browser?</p>
+          <img src="images/icon-arrow.svg" alt="icon-arrow" />
+        </div>
+        <div class="paragraphe">
+          Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+          ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros
+          aliquet convallis ultricies. Mauris augue massa, ultricies non ligula.
+          Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.
+          Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+        </div>
+      </div>
+      <div>
+        <div class="head">
+          <p>Is there a mobile app?</p>
+          <img src="images/icon-arrow.svg" alt="icon-arrow" />
+        </div>
+        <div class="paragraphe">
+          Sed consectetur quam id neque fermentum accumsan. Praesent luctus
+          vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula
+          quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex
+          et ultricies bibendum.
+        </div>
+      </div>
+      <div>
+        <div class="head">
+          <p>What about other Chromium browsers?</p>
+          <img src="images/icon-arrow.svg" alt="icon-arrow" />
+        </div>
+        <div class="paragraphe">
+          Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat
+          mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque
+          non ut velit. More Info 35,000+ already joined Stay up-to-date with
+          what we’re doing Contact Us Features Pricing Contact
+        </div>
+      </div>
+      <button class="btn">More Info</button>
+    </div>
+    <section>
+      <p>35,000+ ALREADY JOINED</p>
+      <h1>Stay up-to-date with what we're doing</h1>
+      <div>
+        <div class="input">
+          <input
+            id="emailInput"
+            type="text"
+            placeholder="Enter your email address"
+          />
+          <p>whoops, make sure it's email</p>
+          <img src="images/icon-error.svg" alt="icon-error" />
+        </div>
+        <button class="btn">Contact Us</button>
+      </div>
+    </section>
+    <footer>
+      <img src="images/logo-bookmark.svg" alt="logo" />
+      <ul>
+        <li>FEATURE</li>
+        <li>PRICING</li>
+        <li>CONTACT</li>
+      </ul>
+      <div>
+        <img src="images/icon-facebook.svg" alt="icon-facebook" />
+        <img src="images/icon-twitter.svg" alt="icon-twitter>
+      </div>
+    </footer>
+    <script src="src/actions.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+:root {
+  --blue: hsl(231, 69%, 60%);
+  --dark-blue: hsl(229, 31%, 21%);
+  --nav-blue: rgba(37, 43, 70, 0.603);
+  --gray: hsl(229, 8%, 60%);
+  --red: hsl(0, 94%, 66%);
+  --p: 8vw;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  background-color: transparent;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+body {
+  overflow-x: hidden;
+}
+.btn {
+  --main-color: var(--blue);
+  background-color: var(--main-color);
+  padding: 10px 25px;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+}
+.font-500 {
+  font-weight: 500;
+}
+li {
+  list-style-type: none;
+}
